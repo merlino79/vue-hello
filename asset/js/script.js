@@ -46,8 +46,8 @@ const root3 = new Vue({
 
     },
     methods: {
-        upTasto() {
-            console.log('ciao prova intercettazione')
+        upTasto(evento) {
+            console.log(evento)
         }
 
 
