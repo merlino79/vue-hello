@@ -60,3 +60,7 @@ img.manga {
     margin-top: 30px;
     display: none;
 }
+
+.visible {
+    display: block;
+}

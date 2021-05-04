@@ -31,7 +31,7 @@ const root2 = new Vue({
     },
     methods: {
         aggImg(immagine) {
-            this
+            this.img = immagine;
         }
     }
 
