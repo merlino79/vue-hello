@@ -52,7 +52,11 @@ button {
 }
 
 .color-2 {
-    color: rgb(124, 26, 116);
+    color: rgb(95, 124, 26);
+}
+
+.color-3 {
+    color: darkred;
 }
 
 img.manga {

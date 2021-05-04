@@ -70,13 +70,20 @@
 
         <section>
             <div id="root3">
-                <input type="text" placeholder="inserisci il testo" v-model="messaggio4">
+                <input type="text" placeholder="inserisci il testo" v-model="messaggio4" @keyup="keyintercettare">
                 <p>
                     {{messaggio4}}
                 </p>
+
+
                 <h3>
                     cambiare colore dopo aver premuto invio
                 </h3>
+
+                </p>
+
+
+
 
             </div>
         </section>

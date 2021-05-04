@@ -42,6 +42,18 @@ const root3 = new Vue({
         el: '#root3',
         data: {
             messaggio4: "",
-        }
+            colore: "",
+
+        },
+        methods: {
+            keyintercettare(testo) {
+
+            }
+
+
+
+
+        },
+
     })
     //console.log(root3);
