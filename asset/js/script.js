@@ -7,10 +7,9 @@
 
 
 const root = new Vue({
-    El: '#root',
+    el: '#root',
     data: {
-        messaggio: "ciao Arsenè",
+        messaggio: "ciao",
     }
 
 });
-console.log(root);
