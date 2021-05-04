@@ -19,7 +19,12 @@
 <body>
     <div class="acContainer">
         <section>
+
             <div id="root">
+                <p>
+                    {{messaggio1}}
+
+                </p>
                 <input type="text" v-model="messaggio">
 
 
@@ -28,8 +33,14 @@
 
 
                 </h1>
+                <h3 :class="colore">
+                    ciao Arsenè proviamo a cambiare colore
+                </h3>
 
-                <button>colore</button>
+
+
+
+                <button @click="cambiaColore('red')">cambio colore</button>
                 <button>cambio colore</button>
 
             </div>

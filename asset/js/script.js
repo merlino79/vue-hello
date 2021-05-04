@@ -9,7 +9,16 @@
 const root = new Vue({
     el: '#root',
     data: {
-        messaggio: "",
+        messaggio1: "inserire il testo nell'input",
+        messaggio: '',
+        colore: '',
+
+    },
+    methods: {
+        cambiaColore(classe) {
+            this.colore = classe;
+        }
+
     }
 
 });

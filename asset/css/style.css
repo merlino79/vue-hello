@@ -18,6 +18,15 @@ section {
     padding: 15px;
 }
 
+section p {
+    margin-bottom: 5px;
+}
+
+section h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
 input {
     margin-bottom: 10px;
     cursor: pointer;
