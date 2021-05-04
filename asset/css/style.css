@@ -6,12 +6,12 @@
 
 body {
     background-color: #bd8216;
+    font-family: 'Girassol', cursive;
 }
 
 .acContainer {
     width: 80%;
     margin: 0 auto;
-    background-color: aliceblue;
 }
 
 section {
