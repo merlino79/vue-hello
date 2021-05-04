@@ -70,13 +70,13 @@
 
         <section>
             <div id="root3">
-                <input type="text" placeholder="inserisci il testo" v-model="messaggio4" @keyup="upTasto">
+                <input type="text" placeholder="inserisci il testo" v-model="messaggio4" @keyup.enter="upTasto(cambiaColore)">
                 <p>
                     {{messaggio4}}
                 </p>
 
 
-                <h3>
+                <h3 :class="colore">
                     cambiare colore dopo aver premuto invio
                 </h3>
 

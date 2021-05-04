@@ -48,6 +48,10 @@ const root3 = new Vue({
     methods: {
         upTasto(evento) {
             console.log(evento)
+
+        },
+        cambiaColore(classe) {
+            this.colore = classe;
         }
 
 
