@@ -52,17 +52,19 @@
                 <h3>
                     {{messaggio3}}
                 </h3>
-
-            </div>
-            <button @click="aggImg('visible')">
-                prova
+                <button @click="aggImg('visible')">
+                    prova
+                
+                
+                
+                </button>
                 <a href="#">
-                    <img class="manga" src="/asset/img/manga2.jpg" alt="manga">
+                    <img :class="img" class="manga" src="/asset/img/manga2.jpg" alt="manga">
 
                 </a>
-                
 
-            </button>
+            </div>
+
         </section>
 
 
