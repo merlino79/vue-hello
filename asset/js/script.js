@@ -36,4 +36,12 @@ const root2 = new Vue({
     }
 
 });
-console.log(root2)
+//console.log(root2)
+
+const root3 = new Vue({
+        el: '#root3',
+        data: {
+            messaggio4: "",
+        }
+    })
+    //console.log(root3);
