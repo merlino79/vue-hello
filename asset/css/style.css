@@ -7,6 +7,8 @@
 body {
     background-color: #bd8216;
     font-family: 'Girassol', cursive;
+    background-image: url(/asset/img/manga.jpg);
+    background-size: cover;
 }
 
 .acContainer {
@@ -51,4 +53,10 @@ button {
 
 .color-2 {
     color: rgb(124, 26, 116);
+}
+
+img.manga {
+    width: 150px;
+    margin-top: 30px;
+    display: none;
 }
