@@ -39,21 +39,20 @@ const root2 = new Vue({
 //console.log(root2)
 
 const root3 = new Vue({
-        el: '#root3',
-        data: {
-            messaggio4: "",
-            colore: "",
+    el: '#root3',
+    data: {
+        messaggio4: "",
+        colore: "",
 
-        },
-        methods: {
-            keyintercettare(testo) {
-
-            }
-
-
+    },
+    methods: {
+        upTasto() {
+            console.log('ciao prova intercettazione')
+        }
 
 
-        },
 
-    })
-    //console.log(root3);
+    }
+
+});
+//console.log(root3);
