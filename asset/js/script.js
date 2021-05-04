@@ -26,7 +26,7 @@ const root = new Vue({
 const root2 = new Vue({
     el: '#root2',
     data: {
-        messaggio3: "proviamo a fare qualcosa in più...",
+        messaggio3: "clicca per l'immagine",
         img: "",
     },
     methods: {
