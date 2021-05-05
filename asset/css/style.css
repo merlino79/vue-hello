@@ -5,10 +5,8 @@
 }
 
 body {
-    background-color: #39d425;
+    background-color: #d4254b;
     font-family: 'Girassol', cursive;
-    background-image: url(/asset/img/manga.jpg);
-    background-size: cover;
 }
 
 .acContainer {
