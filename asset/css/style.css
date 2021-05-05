@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #bd8216;
+    background-color: #39d425;
     font-family: 'Girassol', cursive;
     background-image: url(/asset/img/manga.jpg);
     background-size: cover;
@@ -56,7 +56,7 @@ button {
 }
 
 .color-3 {
-    color: darkred;
+    color: rgb(224, 79, 176);
 }
 
 img.manga {

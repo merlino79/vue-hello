@@ -59,7 +59,7 @@
                 
                 </button>
                 <a href="#">
-                    <img :class="img" class="manga" src="/asset/img/manga2.jpg" alt="manga">
+                    <img :class="img" class="manga" src="asset/img/manga2.jpg" alt="manga">
 
                 </a>
                 <button @click="aggImg(manga)">chiudi-img</button>
@@ -71,7 +71,7 @@
         <section>
             <div id="root3">
                 <input type="text" placeholder="inserisci il testo" v-model="messaggio4" @keyup.enter="upTasto(cambiaColore('color-3'))">
-                <p>
+                <p :class="colore">
                     {{messaggio4}}
                 </p>
 
